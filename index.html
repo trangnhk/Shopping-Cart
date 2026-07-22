@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-custom mb-4">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="w-50">
+                <input type="text" class="form-control" placeholder="helper: what product are you looking for?">
+            </div>
+            <div class="d-flex align-items-center gap-4">
+                <a href="cart.html" class="text-decoration-none position-relative">
+                    <img src="https://cdn-icons-png.flaticon.com/512/833/833314.png" alt="Cart" width="35" height="35">
+                    <span id="cart-badge" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger" style="display: none;">0</span>
+                </a>
+                <img src="https://cdn-icons-png.flaticon.com/512/3177/3177440.png" alt="User" width="40" height="40" class="rounded-circle">
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 row-cols-lg-5 g-4" id="product-list"></div>
+    </div>
+
+    <div class="modal fade" id="productModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content p-4">
+                <div class="modal-body">
+                    <div class="mb-3">
+                        <span class="back-icon" data-bs-dismiss="modal">&larr;</span>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 mb-3 mb-md-0">
+                            <img id="modal-img" src="" alt="Product Image" class="modal-product-img rounded">
+                        </div>
+                        <div class="col-md-6 d-flex flex-column justify-content-between">
+                            <div>
+                                <h2 id="modal-name" class="fw-bold mb-2"></h2>
+                                <div id="modal-rating" class="star-rating mb-3"></div>
+                                <p id="modal-desc" class="text-muted"></p>
+                            </div>
+                            <div>
+                                <div id="modal-price" class="price-text display-6 mb-4"></div>
+                                <div class="d-flex gap-3">
+                                    <button type="button" class="btn btn-custom-gray flex-grow-1 py-2" id="btn-buy-now">Buy now</button>
+                                    <button type="button" class="btn btn-custom-gray flex-grow-1 py-2" id="btn-add-cart">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

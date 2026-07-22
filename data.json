@@ -1,0 +1,202 @@
+[
+    {
+        "id": 1,
+        "name": "Mechanical Keyboard Pro",
+        "rating": 5,
+        "description": "Bàn phím cơ cao cấp với switch siêu êm, đèn LED RGB phản quang cực đẹp.",
+        "price": 1500000,
+        "image": "https://placehold.co/300x300?text=Keyboard+Pro",
+        "voucher": 10,
+        "tax": 10
+    },
+    {
+        "id": 2,
+        "name": "Wireless Ergonomic Mouse",
+        "rating": 4,
+        "description": "Chuột không dây thiết kế công thái học, chống mỏi tay khi làm việc thời gian dài.",
+        "price": 450000,
+        "image": "https://placehold.co/300x300?text=Ergo+Mouse",
+        "voucher": null,
+        "tax": null
+    },
+    {
+        "id": 3,
+        "name": "Ultra-wide Monitor 34 inch",
+        "rating": 5,
+        "description": "Màn hình cong siêu rộng, độ phân giải 4K, tần số quét 144Hz chuẩn gaming.",
+        "price": 8900000,
+        "image": "https://placehold.co/300x300?text=Monitor+34in",
+        "voucher": 15,
+        "tax": 12
+    },
+    {
+        "id": 4,
+        "name": "Noise Cancelling Headphones",
+        "rating": 5,
+        "description": "Tai nghe chụp tai chống ồn chủ động ANC, âm bass cực sâu và ấm.",
+        "price": 2300000,
+        "image": "https://placehold.co/300x300?text=Headphones",
+        "voucher": 5,
+        "tax": null
+    },
+    {
+        "id": 5,
+        "name": "Aluminum Laptop Stand",
+        "rating": 4,
+        "description": "Giá đỡ laptop hợp kim nhôm nguyên khối, tản nhiệt tốt, gấp gọn tiện lợi.",
+        "price": 320000,
+        "image": "https://placehold.co/300x300?text=Laptop+Stand",
+        "voucher": null,
+        "tax": null
+    },
+    {
+        "id": 6,
+        "name": "Type-C Multi-port Hub",
+        "rating": 3,
+        "description": "Cổng chuyển đổi 8 trong 1 cho MacBook và các dòng laptop hỗ trợ Type-C.",
+        "price": 550000,
+        "image": "https://placehold.co/300x300?text=Type-C+Hub",
+        "voucher": 20,
+        "tax": 10
+    },
+    {
+        "id": 7,
+        "name": "RGB Desk Mat Extra Large",
+        "rating": 4,
+        "description": "Thảm lót chuột cỡ lớn viền LED RGB chống nước, bề mặt speed siêu mượt.",
+        "price": 250000,
+        "image": "https://placehold.co/300x300?text=Desk+Mat",
+        "voucher": null,
+        "tax": null
+    },
+    {
+        "id": 8,
+        "name": "100W GaN Fast Charger",
+        "rating": 5,
+        "description": "Củ sạc nhanh công nghệ GaN siêu nhỏ gọn, sạc được cho cả Laptop và Điện thoại.",
+        "price": 950000,
+        "image": "https://placehold.co/300x300?text=GaN+Charger",
+        "voucher": 10,
+        "tax": 15
+    },
+    {
+        "id": 9,
+        "name": "1080p 60fps Webcam",
+        "rating": 4,
+        "description": "Webcam sắc nét tích hợp micro kép khử ồn, phù hợp cho họp online và streaming.",
+        "price": 780000,
+        "image": "https://placehold.co/300x300?text=Webcam+1080p",
+        "voucher": null,
+        "tax": 10
+    },
+    {
+        "id": 10,
+        "name": "Monitor Light Bar",
+        "rating": 5,
+        "description": "Đèn treo màn hình chống chói mắt, điều chỉnh cảm ứng nhiệt độ màu và độ sáng.",
+        "price": 650000,
+        "image": "https://placehold.co/300x300?text=Light+Bar",
+        "voucher": 5,
+        "tax": null
+    },
+    {
+        "id": 11,
+        "name": "20000mAh Power Bank",
+        "rating": 4,
+        "description": "Pin sạc dự phòng dung lượng lớn, hỗ trợ sạc nhanh chuẩn PD 20W an toàn tuyệt đối.",
+        "price": 500000,
+        "image": "https://placehold.co/300x300?text=Power+Bank",
+        "voucher": null,
+        "tax": 10
+    },
+    {
+        "id": 12,
+        "name": "Bluetooth 5.2 Speaker",
+        "rating": 4,
+        "description": "Loa bluetooth di động âm thanh vòm 360 độ, chống nước chuẩn IPX7.",
+        "price": 1200000,
+        "image": "https://placehold.co/300x300?text=Speaker",
+        "voucher": 25,
+        "tax": 12
+    },
+    {
+        "id": 13,
+        "name": "Smart Fitness Watch",
+        "rating": 5,
+        "description": "Đồng hồ thông minh theo dõi nhịp tim, giấc ngủ và tích hợp hơn 50 chế độ thể thao.",
+        "price": 1800000,
+        "image": "https://placehold.co/300x300?text=Smart+Watch",
+        "voucher": 10,
+        "tax": 15
+    },
+    {
+        "id": 14,
+        "name": "Vertical Mouse Wireless",
+        "rating": 3,
+        "description": "Chuột đứng bảo vệ cổ tay, giải pháp tối ưu cho người bị hội chứng ống cổ tay.",
+        "price": 380000,
+        "image": "https://placehold.co/300x300?text=Vertical+Mouse",
+        "voucher": null,
+        "tax": null
+    },
+    {
+        "id": 15,
+        "name": "Microphone USB Condenser",
+        "rating": 5,
+        "description": "Micro thu âm chuyên nghiệp cắm là chạy, kèm chân đế chống rung và màng lọc âm.",
+        "price": 1100000,
+        "image": "https://placehold.co/300x300?text=Microphone",
+        "voucher": 15,
+        "tax": 10
+    },
+    {
+        "id": 16,
+        "name": "Gaming Chair Ergonomic",
+        "rating": 5,
+        "description": "Ghế gaming cao cấp bọc da PU, ngả lưng 180 độ kèm kê chân thư giãn.",
+        "price": 3200000,
+        "image": "https://placehold.co/300x300?text=Gaming+Chair",
+        "voucher": 30,
+        "tax": 15
+    },
+    {
+        "id": 17,
+        "name": "2TB NVMe M.2 SSD",
+        "rating": 5,
+        "description": "Ổ cứng SSD tốc độ đọc ghi siêu tốc lên đến 7000MB/s, tăng tốc máy tính tối đa.",
+        "price": 2800000,
+        "image": "https://placehold.co/300x300?text=2TB+SSD",
+        "voucher": null,
+        "tax": 10
+    },
+    {
+        "id": 18,
+        "name": "16GB DDR4 RAM Stick",
+        "rating": 4,
+        "description": "RAM máy tính tản nhiệt thép, bus 3200MHz hiệu năng ổn định cho mọi tác vụ nặng.",
+        "price": 900000,
+        "image": "https://placehold.co/300x300?text=16GB+RAM",
+        "voucher": null,
+        "tax": null
+    },
+    {
+        "id": 19,
+        "name": "Cable Management Box",
+        "rating": 4,
+        "description": "Hộp giấu dây điện gọn gàng, an toàn cho trẻ nhỏ và tăng tính thẩm mỹ cho bàn làm việc.",
+        "price": 150000,
+        "image": "https://placehold.co/300x300?text=Cable+Box",
+        "voucher": null,
+        "tax": null
+    },
+    {
+        "id": 20,
+        "name": "Wi-Fi 6 Router Dual Band",
+        "rating": 5,
+        "description": "Router phát sóng Wi-Fi 6 thế hệ mới, xuyên tường mạnh mẽ, chịu tải 100 thiết bị.",
+        "price": 1450000,
+        "image": "https://placehold.co/300x300?text=WiFi+6+Router",
+        "voucher": 10,
+        "tax": 10
+    }
+]

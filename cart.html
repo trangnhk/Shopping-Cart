@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CART</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="mb-3 d-flex justify-content-between align-items-center">
+            <a href="index.html" class="text-decoration-none text-dark fw-bold">&larr; Back to Shop</a>
+        </div>
+
+        <div class="test-panel">
+            <div class="d-flex justify-content-between align-items-center mb-2">
+                <h4 class="text-primary fw-bold mb-0">COMPARISON PANEL</h4>
+                <span class="badge bg-dark">Interactive Test Engine</span>
+            </div>
+
+            <div class="d-flex flex-wrap gap-2 mb-3">
+                <button type="button" class="btn btn-outline-primary fw-bold px-3 py-2" onclick="runTestScenario(1)">
+                    Scenario 1: Normal Case (Tax 10% + Voucher 20%)
+                </button>
+                <button type="button" class="btn btn-outline-success fw-bold px-3 py-2" onclick="runTestScenario(2)">
+                    Scenario 2: Edge Case (Zero Tax & Zero Voucher)
+                </button>
+                <button type="button" class="btn btn-outline-danger fw-bold px-3 py-2" onclick="runTestScenario(3)">
+                    Scenario 3: Negative Test (Invalid Voucher and Negative Tax)
+                </button>
+            </div>
+
+            <div id="comparison-display" class="comparison-box">
+                <div class="row g-3">
+
+                    <div class="col-md-4">
+                        <div class="wrong-output-card">
+                            <h6 class="text-danger fw-bold d-flex align-items-center">
+                                Wrong Output (Before JS Fix)
+                            </h6>
+                            <hr class="my-2">
+                            <div id="wrong-output-content" class="small text-dark"></div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="correct-output-card">
+                            <h6 class="text-success fw-bold d-flex align-items-center">
+                                Correct Output (After JS Fix)
+                            </h6>
+                            <hr class="my-2">
+                            <div id="correct-output-content" class="small text-dark"></div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="explanation-card">
+                            <h6 class="text-dark fw-bold d-flex align-items-center">
+                                Technical Explanation & JS Code
+                            </h6>
+                            <hr class="my-2">
+                            <div id="explanation-content" class="small text-dark"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- MAIN CART UI -->
+        <div class="row g-5">
+            <!-- Left Column: Cart Items List -->
+            <div class="col-lg-7" id="cart-items-container">
+                <!-- Cart items rendered by JS -->
+            </div>
+
+            <!-- Right Column: Total Box -->
+            <div class="col-lg-5">
+                <div class="total-box">
+                    <h2 class="text-center fw-bold mb-4">TOTAL</h2>
+
+                    <div class="mb-2 d-flex justify-content-between text-muted small">
+                        <span>Subtotal (Before Tax):</span>
+                        <span id="display-subtotal">0 VND</span>
+                    </div>
+
+                    <div class="mb-2 d-flex justify-content-between text-muted small">
+                        <span>Estimated Tax (<span id="display-tax-rate">0%</span>):</span>
+                        <span id="display-tax-amount">+ 0 VND</span>
+                    </div>
+
+                    <div class="my-3 d-flex align-items-center justify-content-between">
+                        <label class="fw-bold me-2" for="input-voucher">Voucher (%):</label>
+                        <div>
+                            <input type="text" id="input-voucher" class="form-control text-end fw-bold"
+                                style="width: 110px;" placeholder="0-100" value="0">
+                            <small id="voucher-error" class="text-danger fw-bold"
+                                style="display: none; font-size: 11px;"></small>
+                        </div>
+                    </div>
+
+                    <div class="mb-3 d-flex justify-content-between text-success small fw-bold">
+                        <span>Discount Amount:</span>
+                        <span id="display-discount">- 0 VND</span>
+                    </div>
+
+                    <hr>
+
+                    <div class="text-center price-text display-6 mb-4" id="final-total-price">
+                        0 VND
+                    </div>
+
+                    <button type="button" class="btn btn-pay-now fs-5" id="btn-pay">Pay now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/cart.js"></script>
+</body>
+
+</html>
